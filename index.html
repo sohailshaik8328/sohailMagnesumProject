@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 18px;
+  color: rgb(91,115,151);
+  border-radius: 3px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(255,142,62); color: #FFFFFF; border-radius: 2px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    text-decoration: none;
+    color: rgb(255,172,69);
+    font-weight: 500;
+    background-color:rgb(255,255,255);
+    width: 120px;
+
+
+    
+    height: 15px;
+    border-radius: 3px;
+    }
+    .second .prm:hover,.second .prm1:hover,.second .prm2:hover{
+        transform: scale(1.02);
+
+    }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div id="navbar">
+            <a href="/" class="navbar__logo"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg"/></a>
+            <div class="navbar__content">
+                <div class="navbar__icons">
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Features</a>
+                        <div class="dropdown-content">
+                            <a href="#">Iphone & Ipad</a>
+                            <a href="#">Android App</a>
+                            <a href="#">MyNetDiary vs MyFitnessPal</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Diets</a>
+                        <div class="dropdown-content">
+                            <a href="#">Calorie Counting</a>
+                            <a href="#">Low-Carb</a>
+                            <a href="#">Keto</a>
+                            <a href="#">High Protien</a>
+                            <a href="#">Low Fat</a>
+                            <a href="#">Mediterranian</a>
+                            <a href="#">Vegetarian</a>
+                            <a href="#">Vegan</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Library</a>
+                        <div class="dropdown-content">
+                            <a href="#">WeightLoss Blog</a>
+                            <a href="#">Diet Library</a>
+                            <a href="#">Dietician Team</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Food</a>
+                        <div class="dropdown-content">
+                            <a href="#">Food Search</a>
+                            <a href="#">Food Vendors</a>
+                            <a href="#">Food Catalog</a>
+                            <a href="#">DataBase Licensing & API </a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Buisinesses</a>
+                        <div class="dropdown-content">
+                            <a href="#">Find HealthCare Professional</a>
+                            <a href="#">For HealthCare Professionals</a>
+                            <a href="#">For Trainers & Club</a>
+                            <a href="#">For DataBase Licensing </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="navbar__buttons">
+                    <a href="/signup_new.html"class="navbar__button1" style="padding-top: 17px;">SIGN UP</a>
+                    <a class="navbar__button2" href="/signin_new.html">SIGN IN</a>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div class="container__text">
+                <img style="margin: 0;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-left@1x.png" srcset="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-left@2x.png 2x" alt="Berries" class="berry">
+                <h1>Be Healthy <br/>for Life!</h1>
+                <p>Your weight loss,diet and<br/>nutrition assistant</p>
+                <div class="container__icons">
+                    <img style="width: 150px; margin-right: 30px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge.svg"/>
+                    <img style="width: 150px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/google-play-badge.svg"/>
+                </div>
+                <div class="container__rating">
+                    <div class="topratings">
+                    <p style="color:#46618A; font-size: 20px;margin-left: -50px;"><strong>Top Rated:</strong> 61,383 reviews & counting</p>
+                    </div>
+                    <div class="stars">
+                        <div class="apple">
+                            <i style="color:#46618A;" class="fab fa-apple fa-2x"></i>
+                            <i style="color:#FFA645;"class="fas fa-star"></i>
+                            <i style="color:#FFA645;"class="fas fa-star"></i>
+                            <i style="color:#FFA645;"class="fas fa-star"></i>
+                            <i style="color:#FFA645;"class="fas fa-star"></i>
+                            <i style="color:#FFA645;"class="fas fa-star-half"></i>
+                            <strong>4.5</strong>
+                        </div>
+                        <div class="android">
+                            <i style="color:#46618A;" class="fab fa-android fa-2x"></i>
+                            <i style="color:#FFA645;" class="fas fa-star"></i>
+                            <i style="color:#FFA645;" class="fas fa-star"></i>
+                            <i style="color:#FFA645;" class="fas fa-star"></i>
+                            <i style="color:#FFA645;"class="fas fa-star"></i>
+                            <i  style="color:#FFA645;"class="fas fa-star-half"></i>
+                            <strong>4.5</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="container__phone" src="https://s3.amazonaws.com/img.mynetdiary.com/images/iphonex@1x.png"/>
+            <img class="container__watch" src="https://s3.amazonaws.com/img.mynetdiary.com/images/iwatch@1x.png"/>
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-right@1x.png" srcset="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-right@2x.png 1248w,
+                    https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-right@1x.png 624w" sizes="(min-width: 1920px) 1200px,
+                    300px" alt="Plate">
+        </div>
+    </div>
+    <div class="womenhealth">
+        <h1 style="color:#46618A;">“You really can't go wrong with MyNetDiary<br/>
+            as a scientifically-proven way to help you lose weight”</h1>
+            <img  style="width: 250px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/wh-logo.svg"/>
+    </div>
+    <div class="companies">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-usa-today.png"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-abc-news.svg"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-fox.svg"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-times.svg"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-consumer-reports.svg"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-wsj.svg"/>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-chicago-tribune.svg"/>
+    </div>
+    <div class="succeed">
+        <h1>What it takes to succeed</h1>
+        <div class="succeed__contents">
+            <div class="succeed__content">
+                <img style="height: 200px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-insights-Illustration-1@2x.png"/>
+                <h1>Find your Diet</h1>
+                <h3>Find a diet that fits your lifestyle: Calorie Counting,<br/> Low-Carb, Keto, Vegan, Vegetarian and more.</h3>
+            </div>
+            <div class="succeed__content">
+                <img style="height: 200px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-insights-Illustration-2@2x.png"/>
+                <h1>Set Your Targets</h1>
+                <h3>Choose your desired weekly weight loss rate, target<br/> date, and source of calories like fat, carbs, and proteins.</h3>
+            </div>
+            <div class="succeed__content">
+                <img style="height: 200px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-insights-Illustration-3@2x.png"/>
+                <h1>Log Your Meals & Exercise</h1>
+                <h3>Use the App to track your food, physical activities, and <br/>nutrients. Use the barcode scanner. Log ahead of time<br/> for better planning and scheduling.</h3>
+            </div>
+            <div class="succeed__content">
+                <img style="height: 200px;" src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-insights-Illustration-4@2x.png"/>
+                <h1>Reach Your Goals</h1>
+                <h3>Monitor your daily progress, check your weight loss <br/>forecast, and receive ongoing advice and feedback.<br/> Learn more about nutrients in your diet and make <br/>better choices.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="white">
+        <p class="p1">Top Rated Calorie Counter App</p>
+        <p class="p2">“This is my favorite food diary app. I used six of the "top" apps in this <br/>category for several days so that I could compare them and select <br/>what worked best for me. MyNetDiary was the winner. Intuitive, <br/>simple layout, decent database, appealing graphic design, and no ads.”</p>
+        <a href ="https://www.w3schools.com/icons/tryit.asp?icon=fas_fa-caret-right&unicon=f0da"><div class="inner">
+            <p class="p3"> SEE MORE TESTIMONIALS        <i class='fas fa-caret-right' style='font-size:20px; color:#22a322'></i></p>
+        </div></a>
+    </div>
+
+    <div>
+        <div class="second">
+            <div class="prm">
+                <img class="img1"src="https://s3.amazonaws.com/img.mynetdiary.com/keto/cover-premium-keto-recipes@2x.jpg"/>
+                <p class="p4">Premium <br/>Recipes</p>
+                <p class="p5">Hundreds of easy recipes, with <br/>great variety, carefully crafted<br/> for great taste by a team of<br/> Registered Dietitians.</p>
+            </div>
+
+            <div class="prm1">
+                <img class="img1"src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-easy-tracking-premium@2x.png"/>
+                <p class="p4">Easy <br/>Tracking</p>
+                <p class="p5">Massive food catalog, fastest<br/> barcode scanner, quickest food <br/>lookup making food tracking a breeze</p>
+            </div>
+
+            <div class="prm2">
+                <img class="img1"src="https://s3.amazonaws.com/img.mynetdiary.com/images/cover-insights-and-guidance-keto@2x.png"/>
+                <p class="p4">Insights and <br/>Guidance</p>
+                <p class="p5">Encouraging and supportive feedback, guiding you<br/> to your goal.</p>
+            </div>
+        </div>
+        <a href="https://www.w3schools.com/icons/tryit.asp?icon=fas_fa-caret-right&unicon=f0da"><div class="more">
+            <p class="p6">MORE FEATURES   <i class='fas fa-caret-right' style='font-size:20px; color:#22a322'></i></p>
+        </div></a>
+    </div>
+
+    <div class="contain"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            
+          </ol>
+      
+          <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="flex">
+                    <img class="crimg" src="https://s3.amazonaws.com/img.mynetdiary.com/images/success-story-julie@1x.png" alt="Los Angeles" style="width:40%;height:600px;"/> 
+                    <div class="inrcr">
+                        <p class="h2">Julie Martel</p>
+                        <p style="color:white;font-family: 'Raleway', sans-serif;font-size:20px;font-weight: 600;margin:10px;">LOST 71 LB (35%) AND MAINTAINED
+                            <br/>AFTER 492 DAYS.</p>
+                        <p style="color:rgb(252,248,179);font-family: 'Raleway', sans-serif;font-size: 20px;margin:10px;">“My life changed.<br/>
+                            My life is beautiful!<br/>
+                            I am beautiful!!!”</p>
+                            <div class="read">
+                                <p style="margin:14px 10px 10px 15px;">READ SUCCESS STORY</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+      
+            
+                <div class="item">
+                    <div class="flex">
+                    <img class="crimg" src="https://s3.amazonaws.com/img.mynetdiary.com/images/success-story-carrie@1x.png" alt="Los Angeles" style="width:40%;height:600px;"/> 
+                    <div class="inrcr">
+                        <p class="h2">Carrie Hammond</p>
+                        <p style="color:white;font-family: 'Raleway', sans-serif;font-size:20px;font-weight: 600;margin:10px;">LOST 71 LB (35%) AND MAINTAINED
+                            <br/>AFTER 492 DAYS.</p>
+                        <p style="color:rgb(252,248,179);font-family: 'Raleway', sans-serif;font-size: 20px;margin:10px;">“My life changed.<br/>
+                            My life is beautiful!<br/>
+                            I am beautiful!!!”</p>
+                            <div class="read">
+                                <p style="margin:14px 10px 10px 15px;">READ SUCCESS STORY</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+          
+           
+                <div class="item">
+                    <div class="flex">
+                    <img class="crimg" src="https://s3.amazonaws.com/img.mynetdiary.com/images/success-paul-reynolds@1x.png" alt="Los Angeles" style="width:40%;height:600px;"/> 
+                    <div class="inrcr">
+                        <p class="h2">Paul Reynolds</p>
+                        <p style="color:white;font-family: 'Raleway', sans-serif;font-size:20px;font-weight: 600;margin:10px;">LOST 71 LB (35%) AND MAINTAINED
+                            <br/>AFTER 492 DAYS.</p>
+                        <p style="color:rgb(252,248,179);font-family: 'Raleway', sans-serif;font-size: 20px;margin:10px;">“My life changed.<br/>
+                            My life is beautiful!<br/>
+                            I am beautiful!!!”</p>
+                            <div class="read">
+                                <p style="margin:14px 10px 10px 15px;">READ SUCCESS STORY</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="item">
+                    <div class="flex">
+                    <img class="crimg" src="https://s3.amazonaws.com/img.mynetdiary.com/images/success-story-joe@1x.png" alt="Los Angeles" style="width:40%;height:600px;"/> 
+                    <div class="inrcr">
+                        <p class="h2">Joe Balfe</p>
+                        <p style="color:white;font-family: 'Raleway', sans-serif;font-size:20px;font-weight: 600;margin:10px;">LOST 71 LB (35%) AND MAINTAINED
+                            <br/>AFTER 492 DAYS.</p>
+                        <p style="color:rgb(252,248,179);font-family: 'Raleway', sans-serif;font-size: 20px;margin:10px;">“My life changed.<br/>
+                            My life is beautiful!<br/>
+                            I am beautiful!!!”</p>
+                            <div class="read">
+                                <p style="margin:14px 10px 10px 15px;">READ SUCCESS STORY</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- bottom part -->
+    
+    <div class="bottom__part">
+        <h1>Being Healthy Has Never Been Easier</h1>
+        <div class="bottom__cards">
+            <div class="bottom__cards__one">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/diet-goals.jpeg" alt="">
+                <div class="data__one">
+                    <h2>
+                        What are your diet goals? MyNetDiary's <br>
+                        Premium diets make custom goal setting so <br>
+                        easy that you can focus on your destination
+                    </h2>
+                    <div class="dash__one"></div>
+                    <p>Ready to set your diet goals? Setting up a healthy-eating plan is a lot
+                    <br>easier when you have the tools you need. MyNetDiary covers you with
+                    <br> eight premium diet plans. No Matter if your goal is weight loss or clean-
+                    <br>eating, the diet plans a...
+                    </p>
+                </div>
+            </div>
+
+            <div class="bottom__cards__two">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/5-essential-steps-for-setting-smart-health-goals.jpeg" alt="">
+                <div class="data__two">
+                    <h2>
+                       Start with these 5 steps to crush your Health
+                       <br> and Wellness Goals
+                    </h2>
+                    <div class="dash__two"></div>
+                    <p>Trreat your health and wellness goals like a buisiness plan. Learn the 5
+                        <br> essential steps for setting SMART health goals
+                    </p>
+                </div>
+            </div>
+
+            <div class="bottom__cards__three">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/sleep-and-weight.jpeg" alt="">
+                <div class="data__three">
+                    <h2>
+                       Sleep the weight: What's the Connection?
+                       <br> here's how you can get better sleep to help
+                       <br>lose weight
+                    </h2>
+                    <div class="dash__three"></div>
+                    <p>Poor sleep and weight struggles go hand-in-hand. Learn how to get
+                    <br>quality rest to feel your best and support your weight-loss goals.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bottom__cards__four">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/exercise-and-appetite.jpeg" alt="">
+                <div class="data__four">
+                    <h2>
+                       What's the connection between exercise and
+                       <br> Appette Hint: It'smore about when you eat
+                    </h2>
+                    <div class="dash__four"></div>
+                    <p>confused about when to exercise and fuel your appette? What's the point
+                    <br> in exercising if its just going to make you hungry? Read on to learn about
+                    <br> the connection and what's most effective so that you can succeed at your
+                    <br> weight-loss-goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button>VIEW ALL ARTICLES  </button>
+        </div>
+        <div class="dotted__border"></div>
+
+        <div class="company__images__div">
+            <h1>Compatible With</h1>
+            <div class="company__images">
+                <img src="https://1000logos.net/wp-content/uploads/2020/04/Garmin-Logo-500x281.png" alt="">
+                <img src="https://www.crushpixel.com/big-static16/preview4/heart-logo-design-vector-template-2343233.jpg" alt="">
+                <img src="https://www.modev.com/hubfs/Samsung/Samsung%20Health/Logo/logo-samsung-health.png" alt="">
+                <img src="https://www.macworld.co.uk/cmsdata/features/3681135/how_to_type_apple_logo_1200a.jpg" alt="">
+                <img src="https://1000logos.net/wp-content/uploads/2017/07/Color-Fitbit-Logo.jpg" alt="">
+                <img src="https://theme.zdassets.com/theme_assets/125350/f6d3734a9b5cf3be8f3bc49cec4ed72cef0cd825.png" alt="">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+        </div>
+
+        <div class="bottom__image">
+            <div class="bottom__image__left">
+                <h1>Start Your Free <br> Food Diary Today</h1>
+                <button>SIGN UP</button>
+
+            </div>
+            <div class="bottom__image__right">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-your-free--devices@1x.png?v07092020" alt="">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__one">
+                <div class="footer__one__logo">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg" alt="">
+                </div>
+                <div class="footer__one__twoImages">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge.svg" alt="">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/google-play-badge.svg" alt="">
+                </div>
+                <div class="footer__one__stars">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt="">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt="">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt="">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt="">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt="">
+                    <span>4.8 . 61,383 Ratings</span>
+                </div>
+                <div class="footer__logos">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/733/733558.svg" alt="">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/1312/1312139.svg" alt="">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/145/145812.svg" alt="">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/187/187210.svg" alt="">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/220/220214.svg" alt="">
+                </div>
+            </div>
+            <div class="footer__two">
+                <h3>APP FEATURES</h3>
+                <ul>
+                    <li>Iphone&Ipad</li>
+                    <li>Android App</li>
+                    <li>Leto-diet</li>
+                    <li>Low-carb diet</li>
+                    <li>Premium calorie coutning</li>
+                    <li>MyetDiary vs MyFitnessPal</li>
+                </ul>
+
+            </div>
+            <div class="footer__three">
+                <h3>WEIGHT LOSS SCIENCE</h3>
+                <ul>
+                    <li>Weight Loss Blog</li>
+                    <li>Diet Library</li>
+                    <li>Dietician Team</li>
+                </ul>
+            </div>
+            <div class="footer__four">
+                <h3>BUISINESSES</h3>
+                <ul>
+                    <li>Gift cards & Group discounts</li>
+                    <li>For trainers</li>
+                    <li>For healthcare professionals</li>
+                    <li>For families</li>
+                    <li>Food database licensing</li>
+                </ul>
+
+            </div>
+            <div class="footer__five">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li>About MyNetDiary</li>
+                    <li>In the News</li>
+                    <li>Press Releases</li>
+                    <li>Press Kit</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__final">
+            <div class="footer__final__left">
+                <p>Copyright &copy; 2020 MyNetDiary Inc. All Rights Reserved.</p>
+
+            </div>
+            <div class="footer__final__right">
+               <p>Contact Us</p>
+               <p>FAQ</p>
+               <p>Privacy</p>
+               <p>Terms Of Use</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+<script src="homepage.js"></script>
+</html>

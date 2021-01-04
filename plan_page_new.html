@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Page</title>
+    <link rel="stylesheet" href="/plan_page_new.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<style>
+           .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 15px;
+  color: rgb(91,115,151);
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(255,142,62); color: #FFFFFF; border-radius: 2px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    text-decoration: none;
+    color: rgb(255,172,69);
+    font-weight: 500;
+    background-color:rgb(255,255,255);
+    width: 120px;
+    height: 15px;
+    border-radius: 3px;
+    }
+</style>
+<body>
+
+    <!-- Plan Page HTML start -->
+
+    <div class="plan__page">
+        <div class="nav__bar">
+          <div class="nav__bar__top">
+              <div class="nav__bar__top__logo">
+                  <img src="https://github.com/AbhinavRajSing/magnesium/blob/main/images/mynet2.PNG?raw=true" alt="">
+              </div>
+              <div class="nav__bar__top__right">
+                  <img src="https://www.mynetdiary.com/img/Premium_planning_x2.png" alt="">
+                  <div class="dropdown">
+                    <a class="dropbtn" href=""><img style="width: 25px; height: 25px;" src="https://www.flaticon.com/premium-icon/icons/svg/3748/3748694.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="/index.html">LOG OUT</a>
+                    </div>
+                </div>
+
+                   <!-- <a href="/homepage.html"><img src="https://www.flaticon.com/premium-icon/icons/svg/3748/3748694.svg" alt=""></a> -->
+              </div>
+          </div>
+
+          <div class="nav__bar__bottom">
+            <a href="/dash_board.html">DASHBOARD</a>
+            <a href="/plan_page_new.html">PLAN</a>
+            <a href="/food_new.html">FOOD</a>
+            <a href="/exercise_new.html">EXERCISE</a>
+            <a href="/analysis_new.html">ANALYSIS</a>
+            <a href="#">COMMUNITY</a>
+            <a href="/settings_page_new.html">SETTINGS</a>
+          </div>
+        </div>
+
+        <div class="middle">
+            <div class="middle__left">
+                <div class="middle__left__one">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/weight_plan.png" alt="">
+                    <span>Weight & Calories</span> 
+                </div>
+                <div class="middle__left__two">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/macros_plan.png" alt="">
+                    <span>Fat, Carbs & Protien</span> 
+               </div>
+               <div class="middle__left__three">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/exercise_plan.png" alt="">
+                    <span>Exercise Plan</span> 
+                </div>
+                <div class="middle__left__four">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/nutr_plan.png" alt="">
+                    <span>Nutrient Targets</span> 
+                </div>
+                <div class="middle__left__five">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/cycling_plan.png" alt="">
+                    <span>Calorie Cycling</span>
+                </div>
+            </div>
+
+            <div class="middle__right">
+                <!-- <div class="heading">
+                    <p>I plan to lose 10 lb in 69 days by eating less than  1,481cals daily.</p>
+               </div> -->
+
+               <div class="middle__right__left">
+                <div class="left__one">
+                    <h6>Current Weight</h6>
+                    <input type="text" name="" value="80 Ib">
+                </div>
+
+                <div class="left__two">
+                     <h6>Target Weight</h6>
+                     <input type="text" name="" value="70 Ib">
+               </div>
+
+             <div class="left__three">
+                 <h6>Target Date</h6>
+                 <input type="text" name="" value="March 9, 2021">
+             </div>
+
+             <div class="left__four">
+                 <h6>Weekly Rate</h6>
+                 <input type="text" name="" value="Losing 1.01 Ib per Week">
+             </div>
+
+             <div class="left__five">
+                 <h6><img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/budget_target.png" alt=""> Daily Food Calorie Budget</h6>
+                 <input type="text" name="" value="1,481" style="color: green; font-size: 20px;">
+             </div>
+
+             <h5>MyNetDiary recommends 1,474 calories based on your
+            <br> weight target. <a href="#">Explain</a></h5>
+
+            <div class="left__six">
+                 <h6><img src="https://www.mynetdiary.com/img/mui/autopilot_off.png" alt="">Auto Pilot</h6>
+                 <input type="text" name="" value="Off">
+            </div>
+
+            <div class="recommend">
+                <h5>RECOMMEND</h5>
+            </div>
+
+            <div class="contact">
+                <img src="https://www.mynetdiary.com/img/mui/icon_profile_male.png" alt="">
+                <span>Personal Info</span> <br>
+                <h5>
+                 male, 5'10", sedentary activity level, born on jun 22, 1998</h5>
+            </div>
+
+                 <div class="flag">
+                     <h6>Weight Progress</h6>
+
+                     <img src="https://s3.amazonaws.com/img.mynetdiary.com/plan/weight_plan.png" alt="">
+                     <span>Maintained weight in 1 day since Dec 29.</span>
+
+                     <h5>SHOW WEIGHT CHART    FRESH START</h5>
+
+                 </div>
+            </div>
+
+            <div class="middle__right__right">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/help/android/screenshots/budget.png" alt="">
+            </div>
+            </div>
+        </div>
+
+
+        <div class="plan__footer">
+            <div class="plan__footer__one">
+                <h5>&copy; 2020 MyNetDiary Inc.</h5>
+                <h6>All Rights Reserved. MyNetDiary is a regestered trademark
+                <br>of MyNetDiary Inc.
+                </h6>
+
+            </div>
+            <div class="plan__footer__two">
+             <ul>
+                 <li>Sucess Stories</li>
+                 <li>Efficiency Report</li>
+                 <li>Menmber Testimonials</li>
+                 <li>Community</li>
+                 <li>Dietician's Blog</li>
+                 <li>Ask a Dietician</li>
+                 <li>Instant Food Search</li>
+                 <li>Diabities and health</li>
+                 <li>tracking</li>
+             </ul>
+
+            </div>
+            <div class="plan__footer__three">
+                <ul>
+                    <li>iphone/ipod App</li>
+                    <li>Ipad App</li>
+                    <li>Android App</li>
+                    <li>Diabties app for phone</li>
+                    <li>Diabities app for Android</li>
+                    <li>Poducts and features</li>
+                    <li>Fit Bit Liking</li>
+                    <li>Withings Linking</li>
+                    <li>Garmin Linking</li>
+                    <li>Twitter linking</li>
+                </ul>
+
+            </div>
+            <div class="plan__footer__four">
+                <ul>
+                    <li>Gift Cards & Group discounts</li>
+                    <li>For Trainers</li>
+                    <li>For Healthcare Professionals</li>
+                    <li>For Falimies</li>
+                </ul>
+
+            </div>
+            <div class="plan__footer__five">
+                <ul>
+                    <li>Help</li>
+                    <li>Learan More</li>
+                    <li>Diet Articles</li>
+                    <li>About</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Use</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plan Page HTML End -->
+</body>
+</html>
